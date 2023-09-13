@@ -1,0 +1,264 @@
+/*CSS INDEX*/
+header {
+    border-bottom: 2px solid black;
+}
+
+body {
+    background-color: black;
+}
+
+/*NAVBAR*/
+#headerNavigation {
+    display: flex;
+    padding: 10px;
+    justify-content: flex-end;
+    float: right;
+}
+
+.logo {
+    height: 40px;
+    width: 140px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
+
+/*BANNER & WELCOMING*/
+
+.banner {
+    color:white;
+    position: absolute;
+    float:inline-start;
+    padding: 0px 70px;
+    font-family:sans-serif;
+}
+
+.banner p {
+    font-size: 20px;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.profile {
+    display: flex;
+    justify-content: right;
+}
+
+.sub-profile {
+    flex: auto;
+    width: 50%;
+    padding-top: 150px;
+    padding-right: 40px;
+    justify-content: flex-end;
+}
+
+.sub-profile p {
+    font-size: 17px;
+    font-weight: normal;
+    width: 400px;
+}
+
+/*SLIDESHOW*/
+
+.img-slideshow {
+    width: 1336px;
+    height: 578px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/*FACILITATION*/
+
+h2 {
+    height: 10px;
+    width: 100%;
+    padding: 20px 0px 20px 0px;
+}
+
+.Facilities {
+    border-top: 2px solid black;
+    padding-left: 70px;
+    /*margin : 30px 0px 30px 0px;*/
+    font-family: sans-serif;
+    color: white;
+}
+
+.Facilities p {
+    font-size: 20px;
+}
+
+.our-facilities {
+    display: flex;
+    justify-content: flex-start; 
+    padding: 50px 0px 50px 0px; 
+}
+
+.our-img {
+    display: flex;
+    justify-content: right;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    padding: 0px 40px 0px 40px;
+}
+
+.Desc {
+    text-align: center;
+}
+
+/*MESSAGE US*/
+
+.send-message {
+    padding-left: 70px;
+    /*margin: 40px 0px 40px 0px;*/
+    background-color: #D9CAB3;
+    border-top: 2px solid burlywood;
+    font-family: sans-serif;
+    color: #302018;
+    box-sizing: border-box;
+}
+
+.message-us {
+    display:flex;
+    justify-content: flex-start;
+    padding-bottom: 50px;
+}
+
+.message-form input{
+    width: 300px;
+}
+
+#radio {
+    width: 50px;
+}
+
+.message-form textarea {
+    width: 300px;
+    height: 60px;
+}
+
+.label {
+    width: 100px;
+}
+
+.output-message {
+    height: 300px;
+    width: 500px;
+    border:1px solid #302018;
+    border-radius: 5px; 
+    padding: 70px 30px 80px 30px;
+    margin-top: 20px;
+    margin-left: 300px;
+    box-sizing: border-box;
+}
+
+.output-message p{
+    height: 30px;
+
+}
+
+footer {
+    background-color: #5C3D2E;
+    padding: 7px;
+    border: 1px solid #302018;
+}
+
+footer h6 {
+    text-align: right;
+    padding-right: 35px;
+    color: #D9CAB3;
+
+}
+
+
+/*RELATIVE CONTENT*/
+@media only screen and (max-width: 600px) {
+    .header-wrapper {
+        flex-direction: column;
+    }
+
+    .logo {
+        margin-bottom: 14px ;
+    }
+
+    .profile {
+        flex-direction: column;
+    }
+
+    .sub-profile {
+        padding-left: 10px;
+    }
+
+    .img-slideshow {
+       height: 1000px;
+        width: 600px;
+    }
+
+    .Facilities {
+        padding-left: 30px;
+    }
+
+    .our-img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .send-message {
+        flex-direction: column;
+        padding-left: 30px;
+    }
+
+    .output-message {
+        margin-left: 50px;
+    }
+
+    .banner-profile {
+        flex-direction: column;
+        padding: 0px 30px;
+    }
+
+    .img-profile {
+        height: 1500px;
+        width: 600px;
+    }
+
+    .abt-class {
+        padding-top: 10px;
+    }
+    
+}
+
+/*CSS PROFILE*/
+.img-profile {
+    height: 750px;
+    width: 100%;
+    object-fit:cover;
+    object-position: bottom;
+}
+
+.banner-profile {
+    position: absolute;
+    padding: 0px 70px;
+    font-family:sans-serif;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.abt-class {
+    flex: auto;
+    width: 50%;
+    padding-top: 200px;
+    padding-right: 50px;
+    color: white;
+}
+
+.abt-class h3 {
+    font-size: 35px;
+}
+
+.abt-class p {
+    font-size: 20px;
+    font-weight: normal;
+    width: 400px;
+    height: 120px;
+}
